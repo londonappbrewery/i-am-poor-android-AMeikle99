@@ -1,12 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 26
 
     defaultConfig {
         applicationId "com.londonappbrewery.iampoor"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 26
+        buildToolsVersion "27.0.3"
         versionCode 1
         versionName "1.0"
     }
@@ -21,5 +22,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
 }
